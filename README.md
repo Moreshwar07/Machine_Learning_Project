@@ -96,6 +96,57 @@ git branch
 
 ...
 
+To setup CI/CD pipeline in heroku we need 3 informations
+
+1. HEROKU_EMAIL = moreshwar.22kar@gmail.com
+2. HEROKU_API_KEY = 81d1f093-d4e2-45a3-b586-91e6f645cde1
+3. HEROKU_APP_NAME = myfirstml-app
+...
+
+BUILD DOCKER IMAGE
+
+...
+
+docker build -t <image_name>:<tagname> .
+
+...
+
+note - image name for docker must be lower case
+
+...
+
+TO LIST DOCKER IMAGE
+
+... 
+
+docker image
+
+...
+
+Run docker image
+
+...
+
+docker run -p 5000:5000 -e PORT=5000 aedf133308e0
+
+...
+
+To check runnig container in docker
+
+...
+
+docker ps
+
+....
+
+To stop docker container
+
+...
+
+docker stop <container_id>
+
+...
+
 
 
 
