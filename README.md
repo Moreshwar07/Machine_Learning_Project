@@ -10,43 +10,92 @@ This is my first machine learning project..
 4. Git
 
 Creating conda Environment
+
 ...
+
 conda create -p venv python==3.7 -y
+
 ...
+
+
 conda activate venv/
+
 ...
+
 pip install -r requirements.txt
 
-To add files to git
-...
-git add .
-...
-or
-...
-git add (file_name)
 ...
 
-Note: To ignore file or folder from git we  we can write name of folder/file in .gitignore file
+To add files to git
+
+...
+
+git add .
+
+...
+
+or
+
+...
+
+git add (file_name)
+
+...
+
+Note: To ignore file or folder from git we  we can write name of folder/file in 
+.gitignore file
+
 ...
 
 To check git status
-..
+
+....
+
 git status
+
 ...
 
 To check all version maintained by git
+
 ...
+
 git log
+
 ...
 
 To create version/commit all changes by git
+
 ...
+
 git commit -m "message"
+
 ...
 
 To send version/changes to github
+
 ...
+
 git push origin main
+
 ...
+
+To check remote url
+
+...
+
+git remote -v
+
+....
+
+
+To check branch name
+
+...
+
+git branch
+
+...
+
+
 
 
